@@ -1,13 +1,8 @@
-# /*    public static String nif(int dni) {
-#         char char = "TRWAGMYFPDXBNJZSQVHLCKE".charAt(dni % 23);
-#         return Integer.toString(dni) + charDni;
-
-# test = "kappa"
-# elem = test[0] # charAt(0), which is 'k' in this case
-#     }
-# // Division entera
-
-txt = "Hello, welcome to my world."
-
-print(txt.find("o"))
-
+__author__ = "Barbara Herrera Flores"
+dni = input("Introduce tu DNI sin letra: ")
+#Comprobar inputs
+while dni.isdigit() == False or len(dni) != 8:
+    dni = input("Error, introduce un DNI valido: ")
+letras = "TRWAGMYFPDXBNJZSQVHLCKE"
+valor = int(dni) % 23
+print("Tu dni con letra es: " + dni + letras[valor])
