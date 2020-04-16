@@ -4,13 +4,6 @@ from math import *
 output = 'Hola mundo'
 print("Hola mundo!")
 
-# /*    public static String nif(int dni) {
-#         char char = "TRWAGMYFPDXBNJZSQVHLCKE".charAt(dni % 23);
-#         return Integer.toString(dni) + charDni;
-
-# test = "kappa"
-# elem = test[0] # charAt(0), which is 'k' in this case
-#     }
 number1 = 0
 number2 = 55.45554
 if number1 > number2:
