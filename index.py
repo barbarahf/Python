@@ -64,7 +64,21 @@
 
 # tuple no es modificable
 
-coordenadas = [(5, 9), (15, 9)]  # lista de numeros
-# list of tuples
-print(coordenadas[0])
-# funciones
+# coordenadas = [(5, 9), (15, 9)]  # lista de numeros
+# # list of tuples
+# print(coordenadas[0])
+# # funciones
+
+#
+# for indice in range(10,0,-1):#Supongo que decrementa
+#     print(indice," ",end="")
+# print("\nComo los cangrejos:)")
+
+
+# listOfPlaces = ["Berlin", "Paris", "Lausanne"]
+# currentCity = "Lausanne"
+#
+# for place in listOfPlaces:
+#     print ("comparing %s with %s: %s" % (place, currentCity, place == currentCity))
+# listOfPlaces = ["Berlin", "Paris", "Lausanne"]
+# currentCity = "Lausanne"
